@@ -15,6 +15,9 @@ for result in results:
     #masks = result.masks  # Masks object for segmentation masks outputs
     #keypoints = result.keypoints  # Keypoints object for pose outputs
     #probs = result.probs  # Probs object for classification outputs
-    %obb = result.obb  # Oriented boxes object for OBB outputs
-    result.show()  # display to screen
+    #obb = result.obb  # Oriented boxes object for OBB outputs
+    #result.show()  # display to screen
     #result.save(filename="result.jpg")  # save to disk
+    pass
+
+# need a way to display to the screen that always goes to the same spot...
